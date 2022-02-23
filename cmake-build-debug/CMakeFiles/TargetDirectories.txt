@@ -1,0 +1,8 @@
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/main.dir
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/test_streamer.dir
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/demo.dir
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/rtsp_encoder_decoder.dir
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/demo1.dir
+/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/CMakeFiles/demo2.dir

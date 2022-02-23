@@ -1,0 +1,6 @@
+/home/abed/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/abed/Desktop/projects/rtsp_encoder_decoder
+-- Checking for module 'gstreamer-mpegts-1.0>=1.4.0'
+--   No package 'gstreamer-mpegts-1.0' found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug

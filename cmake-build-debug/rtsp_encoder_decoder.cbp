@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rtsp_encoder_decoder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_streamer">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/test_streamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_streamer"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_streamer/fast">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/test_streamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_streamer/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtsp_encoder_decoder">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/librtsp_encoder_decoder.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtsp_encoder_decoder"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtsp_encoder_decoder/fast">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/librtsp_encoder_decoder.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 rtsp_encoder_decoder/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo1">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/demo1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo1/fast">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/demo1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo2">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/demo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo2/fast">
+				<Option output="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/demo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/home/abed/Desktop/projects/rtsp_encoder_decoder/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/demo.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/demo1.cpp">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/demo2.cpp">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/src/rtsp_factory.cpp">
+			<Option target="rtsp_encoder_decoder"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/src/rtsp_factory.h">
+			<Option target="rtsp_encoder_decoder"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/src/rtsp_meta_factory.cpp">
+			<Option target="rtsp_encoder_decoder"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/src/rtsp_meta_factory.h">
+			<Option target="rtsp_encoder_decoder"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/src/rtsp_streamer.cpp">
+			<Option target="rtsp_encoder_decoder"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/src/rtsp_streamer.h">
+			<Option target="rtsp_encoder_decoder"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/test_streamer.cpp">
+			<Option target="test_streamer"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/abed/Desktop/projects/rtsp_encoder_decoder/cmake/FindGStreamer.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

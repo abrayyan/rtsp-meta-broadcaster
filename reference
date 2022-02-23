@@ -1,0 +1,128 @@
+The plan is to replicate an RTSP stream but with using a new metada
+
+1) Create a new frame, this can be done by allocating a new GstBuffer which is
+the transfer unit in GStreamer.
+
+    *URL : https://gstreamer.freedesktop.org/documentation/gstreamer/gstbuffer.html?gi-language=c#gst_buffer_new_allocate
+
+    *Creating a buffer:
+
+        1)    GstBuffer *buffer;
+              GstMemory *memory;
+              gint size, width, height, bpp;
+              ...
+              size = width * height * bpp;
+              buffer = gst_buffer_new ();
+              memory = gst_allocator_alloc (NULL, size, NULL);
+              gst_buffer_insert_memory (buffer, -1, memory);
+
+        2)   use gst_buffer_new_allocate to create a buffer with preallocated data of a given size
+
+        ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        GstBuffer
+        The structure of a GstBuffer. Use the associated macros to access the public variables.
+
+        Members
+        mini_object (GstMiniObject) – the parent structure
+        pool (GstBufferPool *) – pointer to the pool owner of the buffer
+        pts (GstClockTime) – presentation timestamp of the buffer, can be GST_CLOCK_TIME_NONE when the pts is not known or relevant. The pts contains the timestamp when the media should be presented to the user.
+        dts (GstClockTime) – decoding timestamp of the buffer, can be GST_CLOCK_TIME_NONE when the dts is not known or relevant. The dts contains the timestamp when the media should be processed.
+        duration (GstClockTime) – duration in time of the buffer data, can be GST_CLOCK_TIME_NONE when the duration is not known or relevant.
+        offset (guint64) – a media specific offset for the buffer data. For video frames, this is the frame number of this buffer. For audio samples, this is the offset of the first sample in this buffer. For file data or compressed data this is the byte offset of the first byte in this buffer.
+        offset_end (guint64) – the last offset contained in this buffer. It has the same format as offset.
+        ------------------------------------------------------
+
+
+    *Adding metadata contains the box to the buffer
+
+        1) Arbitrary extra metadata can be set on a buffer with gst_buffer_add_meta. Metadata can be retrieved with
+           gst_buffer_get_meta. See also GstMeta
+
+           ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+           GstMeta
+           Base structure for metadata. Custom metadata will put this structure as the first member of their structure.
+
+           Members
+           flags (GstMetaFlags) – extra flags for the metadata
+           info (const GstMetaInfo *) – pointer to the GstMetaInfo
+           ------------------------------------------------------
+
+           ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+           GstMetaInfo
+           The GstMetaInfo provides information about a specific metadata structure.
+           GstMetaInfo is a struct
+
+           Members
+           api (GType) – tag identifying the metadata structure and api
+           type (GType) – type identifying the implementor of the api
+           size (gsize) – size of the metadata
+           ------------------------------------------------------
+
+
+        2) With the GstMeta system you can add arbitrary structures to buffers. These structures describe extra
+           properties of the buffer such as cropping, stride, region of interest, etc.
+
+           https://gstreamer.freedesktop.org/documentation/plugin-development/advanced/allocation.html?gi-language=c
+
+           To add a specific metadata to a buffer we need to define few things, for example if we want to add a meta
+           data called BBox we need to define gst_buffer_add_bbox_meta() and gst_buffer_get_bbox_meta()
+
+           Both functions should return a pointer to a bboxMeta structure that contains the metadata
+
+           I need to define a meta struct that contains the bboxMeta
+
+        3) To create a GstMetaInfo we need to register a new MetaInfo
+
+            A metadata API is registered with gst_meta_api_type_register which takes a name for the metadata API and
+            some tags associated with the metadatad. To implement a metadata API, gst_meta_register should be used.
+            This function takes all parameters needed to create, free and transform metadata along with the size
+            of the metadata. The function returns a GstMetaInfo structure that contains the information for the
+            implementation of the API.
+
+
+
+    *We would expect at the end the whole buffer with metadata to look like this
+
+        The complete buffer with metadata could, for example, look as follows:
+
+                                 +----------------------------------+
+        GstMiniObject            |  GType (GstBuffer)               |
+                                 |  refcount, flags, copy/disp/free |
+                                 +----------------------------------+
+        GstBuffer                |  pool,pts,dts,duration,offsets   |
+                                 |  <private data>                  |
+                                 +..................................+
+                                 |  next                           ---+
+                              +- |  info                           ------> GstMetaInfo
+        GstMetaTiming         |  |                                  | |
+                              |  |  dts                             | |
+                              |  |  pts                             | |
+                              |  |  duration                        | |
+                              +- |  clock_rate                      | |
+                                 +  . . . . . . . . . . . . . . . . + |
+                                 |  next                           <--+
+        GstMetaVideo       +- +- |  info                           ------> GstMetaInfo
+                           |  |  |                                  | |
+                           |  |  |  flags                           | |
+                           |  |  |  n_planes                        | |
+                           |  |  |  planes[]                        | |
+                           |  |  |  map                             | |
+                           |  |  |  unmap                           | |
+                           +- |  |                                  | |
+                              |  |  private fields                  | |
+        GstMetaVideoImpl      |  |  ...                             | |
+                              |  |  ...                             | |
+                              +- |                                  | |
+                                 +  . . . . . . . . . . . . . . . . + .
+                                 .                                    .
+
+
+
+
+2) Reading RTSP stream and decoding it frame by frame:
+
+
+
+Final plan is
+
+RTSP stream -> appsource(Check if any of the received callbacks from the SDK has the same time and ocmbine)
